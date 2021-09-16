@@ -1,0 +1,18 @@
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test*.py"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+        "drivers"
+    ],
+    "bazel.buildifierFixOnFormat": true,
+    "bazel.enableCodeLens": true,
+    "bazel.queriesShareServer": true,
+    "bazel.buildifierPath": "/home/tester/GIT/buildifier-linux-amd64"
+}
